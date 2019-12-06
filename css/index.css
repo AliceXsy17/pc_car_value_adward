@@ -1,0 +1,260 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {margin:0; padding:0;}
+html{-webkit-text-size-adjust:none;}
+body{font:12px/1.5 \5B8B\4F53, Arial, Helvetica, sans-serif; text-align:center;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+img{border:none; vertical-align:top}
+i,em{font-style:normal;}
+input,select,option,textarea{font-size:12px;}
+a{text-decoration:none;} a:hover{text-decoration:none;}
+
+/* function */
+noscript,.spanclass,.pannel,.hidden{display:none;}
+.show,.block{display:block;}
+.mark,.fl,.mark-sub,.fr{display:inline;}
+.mark,.fl{float:left;} .mark-sub,.fr{float:right;}
+.fs-14{font-size:14px;} .fs-16{font-size:16px;}
+.clear{clear:both; height:0; line-height:0; font-size:0; overflow:hidden;}
+.clearfix{*zoom:1} .clearfix:after{content:"\20"; clear:both; height:0; display:block; overflow:hidden;}
+
+/*skin*/
+.rgba{background: #000; opacity: 0.6; filter: Alpha(opacity=60);}
+
+/*icon*/
+.icon{display:inline-block; *display:inline; *zoom:1; background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/icons.png) no-repeat;}
+.icon-video{width:114px; height:114px; background-position:-186px 0}
+.icon-vote{position:relative; top:2px; margin-right:10px; width:31px; height:21px; background-position:-269px -129px}
+.icon-tit{width:46px; height:25px; background-position:-186px -126px}
+.icon-point{width:20px; height:20px; background-position: -243px -130px;}
+.icon-bth{width:46px; height:46px; background-position:-212px -157px;}
+
+.btn-prev,.btn-next{width:70px; height:70px; position:absolute; top:50%; margin-top:-35px; cursor:pointer; z-index:9; background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/icons.png) no-repeat;}
+.btn-prev{background-position:-3px -5px; left:-28px;}
+.btn-next{background-position:-80px -5px; right:-40px;}
+.btn-prev:hover{background-position:-4px -80px;}
+.btn-next:hover{background-position:-80px -80px;}
+
+/*layout*/
+.doc{text-align:left;}
+body{font-family: "鑻规柟";}
+
+.inner{width:1120px; margin:0 auto;}
+.banner,.banner .inner{height:757px; background:url(../img/banner.jpg) no-repeat top center;}
+.area1,.area1 .inner{height: 609px;background:url(../img/area1.jpg) no-repeat top center;}
+.area2,.area2 .inner{/*height:1719px;*/ background:url(../img/area2.jpg) repeat-y top center;}
+.area3,.area3 .inner{height:980px; background:url(../img/area31.jpg) no-repeat top center;}
+.area31,.area31 .inner{height:900px; background:url(../img/area3.jpg) no-repeat top center;}
+.area4,.area4 .inner{height:991px; background:url(../img/area4.jpg) no-repeat top center;}
+.area4-1,.area4-1 .inner{height:850px; background:url(../img/area4.jpg) no-repeat top center;}
+.area4-2,.area4-2 .inner{height:850px; background:url(../img/area4.jpg) no-repeat top center;}
+.area5,.area5 .inner{height: 991px;background:url(../img/area5.jpg) no-repeat top center;}
+/*.area6,.area6 .inner{height: 453px;background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/area6.jpg) no-repeat top center;}*/
+.area7,.area7 .inner{height:503px; background:url(../img/area7.jpg) no-repeat top center;display:none;}
+.area8,.area8 .inner{height:299px; background:url(../img/area8.jpg) no-repeat top center;}
+ 
+.th{width:697px;height:203px;margin:0 auto -65px;}
+.area1 .th{/* background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/th1.png) no-repeat;*/ }
+.area2 .th{background:url(../img/th2.png) no-repeat center;}
+.tb{margin-top: 40px;}
+.area31 .th{ background:url(../img/th3.png) no-repeat; }
+.area4 .th{/* background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/th4.png) no-repeat; */}
+.area4-1 .th{height: 50px;}
+.area4-2 .th{height: 50px;}
+.area5 .th{/* background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/th5.png) no-repeat; */}
+.area6 .th{/* background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/th6.png) no-repeat; */}
+.area7 .th{/* background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/th7.png) no-repeat; */}
+.area8 .th{width:252px;height:37px;margin-bottom:36px;/* background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/th8.png) no-repeat; */}
+.area9 .th{width:252px; height:37px; margin-bottom:36px; background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/th9.png) no-repeat;}
+
+.banner .inner{position:relative;}
+.banner .time{position:absolute; left:338px; top:466px; width:440px; height:48px; line-height:48px; color:#a2f6ff; font-size:21px; text-align:center;}
+
+body #footer, body #footer a{background: url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/footer.jpg) no-repeat center top;background-color: #0e0733;margin-top: 0px!important;border-top: none;}
+
+
+/*nav*/
+/*.navlogo{width:225px;height: 60px;float: left;}
+.navlogo img{margin-top: 20px;}*/
+.nav,.nav a{height:60px; line-height:60px;}
+.nav{width:895px;float: left;margin-left: 225px;}
+.nav a{ float:left; padding:0 32px; text-align:center; color:#fff; font-size:20px; *display:inline;}
+.nav a:hover{color: #d8b66d;text-decoration:none;}
+
+/*area1*/
+.area1 .col{height:405px;}
+.area1 .col-l{width:395px; margin-right:5px;}
+.area1 .col-l a{display:block; margin-bottom:5px;border:1px solid #836D4E;}
+.area1 .col-l .pic{}
+.area1 .col-l .more{display:block;width:223px;height:130px;line-height:60px;font-size:30px;color: #4db8ff;position: relative;border:1px solid #836D4E;}
+.area1 .col-l .more span{display:block; height:130px; padding:35px 0 0 45px;}
+.area1 .col-l .more .icon-bth{position:absolute; left: 310px;top: 8px; }
+.area1 .col-l .more:hover{text-decoration:none; }
+.area1 .col-r{width:895px; height:408px;border:1px solid #836D4E;}
+.area1 .col-r .pic-video{position:relative; display:block;}
+.area1 .col-r .icon-video{position: absolute; bottom:30px; left:30px; width:114px; height:114px;}
+
+/*area2*/
+.area2 .col-l{width:738px; margin-right:4px;}
+.area2 .col-l .per{width:366px; height:205px; }
+.area2 .col-l .per-kb{margin-left:5px;}
+.area2 .col-l .per-vote{background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/per1.png) no-repeat;}
+.area2 .col-l .per-kb{background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/per2.png) no-repeat;}
+.area2 .col-l .des{padding:40px 24px 20px; margin-top:5px; color:#7b450b; background-color:#f0cb61;  width: 689px; height: 235px;}
+.area2 .col-l .des .title{margin-bottom:20px; font-weight:bold; font-size:30px;}
+.area2 .col-l .des .txt{font-size:16px; margin-bottom:9px;}
+.area2 .col-l .des .txt span{font-weight:bold;}
+.area2 .col-r,.area2 .col-r .per-idea{width:378px; height:505px;}
+.area2 .col-r .per-idea{background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/per3.png) no-repeat;}
+.px1{width: 100%;height: 151px;margin-top: 100px;}
+.px1-content{width: 510px;height: 151px;float: left;}
+.px1-pic{float: left;}
+.px1-box{width: 298px;height: 125px;border: 1px solid #4E4234;float: left;margin-left: 20px;color: #9c9c9c;font-size: 14px;line-height: 25px;padding-left: 15px;padding-right: 15px;padding-top: 25px;overflow: hidden;}
+.px2{width: 100%;height: 90px;border-bottom: 1px solid #4E4234;margin-top: 70px;}
+.px2-pic{float: left;}
+.px2-box{float: left;width: 725px;height: 75px;color: #9c9c9c;font-size: 14px;line-height: 25px;margin-left: 30px;overflow: hidden;}
+.px3{width: 840px;height: 265px;margin: 0 auto;margin-top: 26px;}
+.px3-content{width: 400px;height: 265px;float: left;}
+.px3-content p{text-align: center;font-size: 18px;color: #dcb578;line-height: 55px;}
+.px4{width: 100%;height: 90px;border-bottom: 1px solid #4E4234;margin-top: 70px;}
+.px4-pic{float: left;}
+.px4-box{float: left;width: 725px;height: 75px;color: #9c9c9c;font-size: 14px;line-height: 25px;margin-left: 30px;overflow: hidden;}
+.px5{width: 100%;/*height: 700px;*/}
+.px5-content{width: 100%;/*height: 200px;*/float: left;}
+.px5-pic{float: left;margin-top: 75px;}
+.px5-all{width: 900px;/*height: 200px;*/float: left;margin-left: 25px;}
+.px5-con{width: 130px;height: 190px;float: left;padding-top: 10px;margin-right: 95px;}
+.px5-head{width: 130px;height: 130px;border-radius:50%;}
+.px5-head img{border-radius:50%;}
+.px5-name{font-size: 18px;color: #dcb578;text-align: center;margin-top: 5px;}
+.px5-id{text-align: center;font-size: 14px;color: #666;}
+
+/*area6*/
+.area6 .col-l{margin-right:20px;}
+.area6 .pic{width:362px; height:245px;}
+.area6 .txt{width:178px; height:217px; padding:15px 9px 11px 0; border:1px solid #2d6098; border-left:none;}
+.area6 .txt span{display:block;}
+.area6 .txt .tit{font-size:22px;text-align:center;color:  #fff;background: url('//www1.pcauto.com.cn/zt/niandu20180110/index/img/colorbg.png') no-repeat;background-size:  cover;}
+.area6 .txt .des{padding:16px 0 0 15px;line-height:24px;color: #fff;}
+
+/*area7*/
+.area7 .des{padding:30px; border:1px solid #2d6098; position: relative;}
+.area7 .des .icon-tit{position: absolute; left:0; top:36px;}
+.area7 .des p{margin-bottom:20px;}
+.area7 .des .tit{padding-left:24px; font-size:24px; color:#f4d570;}
+.area7 .des .txt{font-size:16px; color:#fff;}
+.area7 .des .txt em{color:#f4d570;}
+.area7 .des .txt .icon{line-height:20px; margin-right:10px; color:#333; text-align:center;}
+
+/*area8*/
+.area8 .slider{margin-left:-12px; height:165px;}
+.area8 .item{margin-left:13px;}
+.area8 .pic{display:block; width:270px; height:165px;}
+.area8 .pic:hover{text-decoration:none;}
+.area8 .pic .tit{display:block; height:30px; line-height:30px; text-align:center; color:#333; background-color:#fff;}
+.area8 .control{display:none;}
+.area8 .slider-con,.area8 .slideContent{height:165px; overflow:hidden;}
+
+
+/*slider*/
+.area3 .slider-nav .last{padding:0 13px 0 16px;}
+.area5 .slider-nav li{width:253px;}
+.area4 .slider-nav li{width:253px;}
+.area4-1 .slider-nav li{width:253px;}
+.area4-2 .slider-nav li{width:195px;font-size: 18px;}
+.area4 .slider-nav .last,.area5 .slider-nav .last{padding:0 12px 0 17px;}
+.slider{height:771px; position: relative;}
+.slider-nav,.slider-nav ul,.slider-nav li{height:80px;}
+.slider-nav{height:58px; line-height:58px; margin-bottom:30px; border:1px solid #836D4E;}
+.slider-nav li{float:left; height:58px; line-height:58px; padding:0 13px; text-align:center; color:#BABABB; font-size:22px; cursor:pointer;width: 188px;}
+.slider-nav li.current{height:80px;line-height:80px;margin:-10px 0 0 -1px;background: url('../img/colorbg.jpg') no-repeat;background-size: cover;color: #101012;}
+
+.slider-con{height:681px; overflow:hidden;}
+.slider-con .slideContent{overflow:hidden; height:680px;}
+.slider-item{*display:inline;}
+.slider-item .vote-lst{width:798px;margin-right:5px;padding: 22px 20px 25px 20px;border:1px solid #836D4E;color:#fff;}
+.slider-item .vote-lst .title{margin-bottom:21px; font-size:22px;}
+.slider-item .vote-lst ul{height:230px;}
+.slider-item .vote-lst li{height:30px; line-height:30px; margin-bottom:20px; font-size:16px; *margin-bottom:10px;}
+.slider-item .vote-lst .name{width:120px; height:30px; overflow:hidden;}
+.slider-item .vote-lst .vote{width:70px;text-align:center;background-color: #694B24;cursor:pointer;}
+.slider-item .vote-lst .len{height:30px; margin-right:10px; background-color:#D3B062;}
+.slider-item .vote-lst .num{font-size:12px;}
+
+.slider-item .part{width:274px;}
+.slider-item .part .pic{position: relative;width: 272px;height: 196px;}
+.slider-item .part .pic .tit{width:274px; height:30px; line-height:30px; text-align:center; color:#fff; position: absolute; left:0; bottom:0;}
+.slider-item .part .txt-des{padding: 10px 0 10px 12px;background-color:#e5e5e5;position: relative;}
+.slider-item .part .star,.slider-item .part .star i{height:15px; background:url(../img/star.png) no-repeat; display:inline-block; *display:inline; *zoom:1;}
+.slider-item .part .star{width:86px; background-position:0 -20px; position: relative; top:2px; left:-3px;}
+.slider-item .part .star i{background-position:0 0;}
+.slider-item .part .star1 i{width:14px;}
+.slider-item .part .star2 i{width:32px;}
+.slider-item .part .star3 i{width:52px;}
+.slider-item .part .star4 i{width:70px;}
+.slider-item .part .star5 i{width:86px;}
+.slider-item .part .btn-link{position: absolute; right:0; bottom:10px; width:80px; height:20px; line-height:20px; background-color:#694B24; color:#fff; text-align:center;}
+.slider-item .part .vote-des{background-color:#fff;}
+.slider-item .part .vote-des ul{padding:4px 0 3px 0;color: #003051;}
+.slider-item .part .vote-des li{line-height:24px; list-style: disc; margin-left:20px;}
+.slider-item .part .btn-vote{padding: 12px 6px 12px 14px;background-color:#D3B062;color:#333;cursor:pointer;font-size:24px;/* text-align:  center; */line-height:28px;}
+.slider-item .part .btn-vote:hover{text-decoration:none;}
+
+.slider-item .item-a{height:335px; margin-bottom:10px;}
+.slider-item .item-a .plst{width:273px;}
+
+.slider-item .item-b{margin-left:-8px;}
+.slider-item .item-b .part{margin-left:8px;}
+
+
+/*sub-nav*/
+.sub-nav{display:none;position: fixed;top: 236px;right: 0px;width: 107px;height: 400px;padding-top: 62px;background: url(../img/sub_nav.png) no-repeat;text-align:  center;padding-left: 7px;}
+.sub-nav li{height: 40px; width: 85px; line-height: 40px; font-size: 16px;}
+.sub-nav li a{color: #dcb578;display: block;width: 100%;height: 100%;text-decoration: none;overflow: hidden;}
+.sub-nav li a:hover{color:#fff;}
+.topTop{position: absolute; width: 70px; height: 60px; left: 15px; bottom: 26px; cursor:pointer;}
+
+/*sharebtn*/
+.bdshare-slide-style-l7 .bdshare-slide-button{width:31px!important; height:80px!important; background:url(../img/share.png) no-repeat !important; background-position:-6px 0px !important}
+
+/*popup*/
+.popup{position: absolute;top:50%;left:0;z-index:1000;width: 100%;height: 0;overflow: hidden;}
+.popup .shadow{display: block; width: 100%;height: 100%;background: #000;opacity: 0.8;filter:Alpha(opacity=80);}
+.popup .content{position: absolute;width: 470px;height: 202px;padding-top: 60px;background: #1e5db3;left: 50%;top: 50%;margin: -131px 0 0 -235px;}
+.popup .content .box{border-top: 8px solid #e5e5e5;height: 194px;background: #fff;}
+
+.popup .content .info{height: 50px;line-height: 50px;padding:32px 0 0 64px;width: 180px;margin: 0 auto;color: #777;font-size: 34px;}
+.popup .content .sucess{background: url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/right.png) no-repeat left bottom;}
+.popup .content .fail{background: url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/wrong.png) no-repeat left bottom;}
+.popup .content .txts{color: #777;font-size: 18px;height: 36px;line-height: 36px;margin-top: 35px;}
+.popup .content .close{position: absolute;width: 40px;height: 63px;background:url(//www1.pcauto.com.cn/zt/niandu20180110/index/img/close.png);right: -40px;top: 10px;}
+.popup .content .rank{ padding-top: 40px;color: #777;font-size: 18px;line-height: 40px;}
+.slide-bdysc{display: none!important;}
+.slide-renren{display: none!important;}
+.slide-tqq{display: none!important;}
+.slide-bdxc{display: none!important;}
+.slide-kaixin001{display: none!important;}
+.slide-tqf{display: none!important;}
+.slide-tieba{display: none!important;}
+.slide-douban{display: none!important;}
+.slide-bdhome{display: none!important;}
+.slide-sqq{display: none!important;}
+.slide-thx{display: none!important;}
+.slide-ibaidu{display: none!important;}
+.slide-mshare{display: none!important;}
+.slide-qzone{display: none!important;}
+.slide-tsina{display: none!important;}
+.bdshare-slide-list li {
+    height: auto!important;
+}
+.bdshare-slide-button-box .bdshare-slide-button {
+    top: 0px!important;
+}
+
+
+
+.rxly{width: 180px;float: left;padding-left: 10px;padding-top: 5px;font-size: 13px;color: #000;}
+.rxly span{color: #FF646C;}
+.ewm{width: 117px;height: 147px;position: fixed;left: 0;bottom: 0;background: url(../img/erweima.png);background-size: 100% 100%;}
+.ewm-pic{width: 98px;height: 98px;margin-top: 10px;margin-left: 6px;}
+.bdshare-slide-button{display: none!important;}
