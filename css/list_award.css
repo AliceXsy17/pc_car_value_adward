@@ -19,7 +19,7 @@ noscript,.spanclass,.pannel,.hidden{display:none;}
 .clearfix{*zoom:1} .clearfix:after{content:"\20"; clear:both; height:0; display:block; overflow:hidden;}
 
 /*skin*/
-.rgba{background: #000; opacity: 0.6; filter: Alpha(opacity=60);}
+.rgba{background: #b00100; opacity: 0.6; filter: Alpha(opacity=60);}
 
 /*icon*/
 .icon{display:inline-block; *display:inline; *zoom:1; background:url(../img/icons.png) no-repeat;}
@@ -76,7 +76,7 @@ body #footer, body #footer a{background: url(//www1.pcauto.com.cn/zt/niandu20180
 .nav a:hover{color: #4eb8ff;text-decoration:none;}
 
 /*area1*/
-.area1 .more{display:block; width:200px; height:164px; margin-bottom:4px; font-size:30px; color:#f5d672; position: relative; border: 1px solid #2d6098;}
+.area1 .more{display:block; width:200px; height:164px; margin-bottom:4px; font-size:30px; color:#f5d672; position: relative;background: #342910;}
 .area1 .more span{display:block;height:60px;line-height:36px;width:60px;padding:43px 0 0 45px;color: #fff;}
 .area1 .more:hover{text-decoration:none;}
 .area1 .more .icon-bth{position:absolute; left:120px; top:57px;}
@@ -98,20 +98,27 @@ body #footer, body #footer a{background: url(//www1.pcauto.com.cn/zt/niandu20180
 /*area2,area3*/
 .area2,.area3{padding-bottom:80px;background-size: 100% 100%;}
 .plst{margin-left:-20px;}
-.plst li{float:left; margin:0 0 20px 20px; *display:inline-block;}
-.plst .pic{display:block; width:550px; height:310px; position: relative;}
+.area2 .plst li{float:left;    margin: 0 0 20px 0;background: #d3b062;padding: 10px;margin-right: 10px;}
+.plst li{float:left;margin: 0 0 20px 0;background: #d3b062;margin-right: 10px;}
+.plst li:nth-child(2n){margin-right:0}
+.plst li:nth-child(2n){margin-right:0}
+.area2 .plst .pic{display:block; width:320px; height:215px; position: relative;}
+.plst .pic{display:block; width:100%;position: relative;}
 .plst .pic img{width: 100%;height: 100%;}
-.plst .tit{position: absolute; bottom:0; left:0; width:550px; padding: 10px 0;}
+.plst .pic img{width: 100%;height: 100%;}
+.area2 .plst .tit{position: absolute; bottom:0; left:0; width:320px; padding: 10px 0;}
+.plst .tit{position: absolute; bottom:0; left:0; width:100%; padding: 10px 0;}
 .plst .tit em,.plst .tit i{display:block; color:#fff; text-align:center;}
 .plst .tit em{font-size:18px;}
 .plst .tit i{font-size:14px;}
-.plst .des{width:530px; height:79px; padding:10px; background-color:#fff;}
-.plst .item{height:79px;border: 1px solid #d9d9d9;overflow: hidden;}
-.plst .item span{width:89px;padding:14px 0;text-align:center;border-left: 1px solid #d9d9d9;}
+.area4 .plst .des, .area3 .plst .des{height:79px;background: #fff;padding: 9px;}
+.area2 .plst .des{width:530px; height:79px;}
+.plst .item{height:79px;border: 2px solid #eadab5;background: #fff;overflow: hidden;}
+.plst .item span{width:89px;padding:14px 0;text-align:center;border-left: 1px solid #eadab5;}
 .plst .item .last{width:69px;}
 .plst .item em{display:block; font-size:14px;}
 .plst .item .num{color: #9b7350;font-size:24px;}
-.plst .btn-link{font-size:22px;width:44px;height:66px;padding:7px 18px;background-color: #D3B062;color:#523715;}
+.plst .btn-link{font-size:22px;width:44px;height:66px;padding:7px 18px;background-color: #342910;color: #fff;}
 .plst .btn-link:hover{text-decoration:none;}
 
 /*area8*/
