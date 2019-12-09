@@ -19,7 +19,9 @@ noscript,.spanclass,.pannel,.hidden{display:none;}
 .clearfix{*zoom:1} .clearfix:after{content:"\20"; clear:both; height:0; display:block; overflow:hidden;}
 
 /*skin*/
-.rgba{background: #b00100; opacity: 0.6; filter: Alpha(opacity=60);}
+.rgba{background: #b00100;
+     /* opacity: 0.6; filter: Alpha(opacity=60); */
+    }
 
 /*icon*/
 .icon{display:inline-block; *display:inline; *zoom:1; background:url(../img/icons.png) no-repeat;}
@@ -49,24 +51,28 @@ noscript,.spanclass,.pannel,.hidden{display:none;}
 body{font-family: "鑻规柟";}
 
 .inner{width:1120px; margin:0 auto;}
-.banner,.banner .inner{height:757px; background:url(../img//banner.jpg) no-repeat top center;}
-.area1,.area1 .inner{height:535px; background:url(../img/area1.jpg) no-repeat top center;}
+.banner,.banner .inner{height:809px; background:url(../img//banner.jpg) no-repeat top center;}
+.area1,.area1 .inner{height:569px; background:url(../img/area1.jpg) no-repeat top center;}
 .area2,.area2 .inner{/*height:1835px;*/ background: url(../img/area2.jpg) no-repeat top center;}
 .area3,.area3 .inner{/*height:922px;*/ background:url(../img/area3.jpg) repeat-y top center;}
-.area4,.area4 .inner{/*height:3636px; */background:url(../img//area4.jpg) no-repeat top center;}
-.area8,.area8 .inner{height:299px; background:url(../img/area5.jpg) no-repeat top center;}
+.area3 .inner::before{content:"";display: table;height:0}
+.area4,.area4 .inner{height:1140px;background:url(../img//area4.jpg) no-repeat top center;background-size: 1920px 1140px;}
+.area8,.area8 .inner{height:280px; background:url(../img/area5.jpg) no-repeat top center;}
  
 .th{width: 1119px;height: 144px;margin: 0 auto;}
-.area1 .th{ background:url(../img/area1-top.png) no-repeat center;}
+.area1 .th{width: 1169px;height: 197px;margin-bottom: 10px;background:url(../img/area1-top.png) no-repeat center;}
 .area2 .th{/*background:url(//www1.pcauto.com.cn/zt/niandu20180110/awardlist/img//th2.png) no-repeat;*/}
-.area3 .th{/*background:url(//www1.pcauto.com.cn/zt/niandu20180110/awardlist/img//th3.png) no-repeat;*/text-align: center;}
+.area3 .th{/*background:url(//www1.pcauto.com.cn/zt/niandu20180110/awardlist/img//th3.png) no-repeat;*/margin-top:30px;text-align: center;}
 .area4 .th{/*background:url(//www1.pcauto.com.cn/zt/niandu20180110/awardlist/img//th4.png) no-repeat;*/}
 .area8 .th{width:252px;height:37px;margin-bottom:36px;/* background:url(//www1.pcauto.com.cn/zt/niandu20180110/awardlist/img//th8.png) no-repeat; */}
-
+.area2 .tb,.area4 .tb{margin-top:90px}
+.area2 .right_general{float:right;width:200px;height:185px;padding-top:30px;text-align: center}
+.area2 .right_general .title{font-size:30px;color:#3c2207;margin-bottom:22px}
+.area2 .right_general .description{font-size:18px;color:#50391e;}
 .banner .inner{position:relative;}
 .banner .time{position:absolute;left:338px;top: 466px;width:440px;height:48px;line-height:48px;color: #a2f6ff;font-size:21px;text-align:center;}
 
-body #footer, body #footer a{background: url(//www1.pcauto.com.cn/zt/niandu20180110/awardlist/img//footer.jpg) no-repeat center top;background-color: #0e0733;margin-top: 0px!important;border-top: none;}
+body #footer, body #footer a{/*background: url(//www1.pcauto.com.cn/zt/niandu20180110/awardlist/img//footer.jpg) no-repeat center top;*/background-color: #32280f;margin-top: 0px!important;border-top: none;}
 
 /*nav*/
 .nav,.nav a{height:60px; line-height:60px;}
@@ -96,13 +102,13 @@ body #footer, body #footer a{background: url(//www1.pcauto.com.cn/zt/niandu20180
 .area1 .col-r{margin-right:0;}
 
 /*area2,area3*/
-.area2,.area3{padding-bottom:80px;background-size: 100% 100%;}
+.area2,.area3{background-size: 100% 100%;}
 .plst{margin-left:-20px;}
 .area2 .plst li{float:left;    margin: 0 0 20px 0;background: #d3b062;padding: 10px;margin-right: 10px;}
 .plst li{float:left;margin: 0 0 20px 0;background: #d3b062;margin-right: 10px;}
 .plst li:nth-child(2n){margin-right:0}
 .plst li:nth-child(2n){margin-right:0}
-.area2 .plst .pic{display:block; width:320px; height:215px; position: relative;}
+.area2 .plst .pic{display:block; float: left;width:320px; height:215px; position: relative;}
 .plst .pic{display:block; width:100%;position: relative;}
 .plst .pic img{width: 100%;height: 100%;}
 .plst .pic img{width: 100%;height: 100%;}
@@ -136,8 +142,8 @@ body #footer, body #footer a{background: url(//www1.pcauto.com.cn/zt/niandu20180
 /*sub-nav*/
 .sub-nav{display:none;position: fixed;top: 236px;right: 0;width: 107px;padding-left: 7px;height: 300px;padding-top: 60px;background: url(../img/sub_nav.png) no-repeat;_position: absolute;_top: expression(documentElement.scrollTop + 50 +"px");text-align:center;}
 .sub-nav li{height: 40px; width: 85px; line-height: 40px; font-size: 16px;}
-.sub-nav li a{color: #dcb578;display: block;width: 100%;height: 100%;text-decoration: none;}
-.sub-nav li a:hover{color:#fff;}
+.sub-nav li a{color: #fff;display: block;width: 100%;height: 100%;text-decoration: none;}
+.sub-nav li a:hover{color:#ffd289;}
 .topTop{position: absolute; width: 70px; height: 60px; left: 15px; bottom: 26px; cursor:pointer;}
 
 /*sharebtn*/
