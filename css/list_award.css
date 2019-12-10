@@ -22,7 +22,29 @@ noscript,.spanclass,.pannel,.hidden{display:none;}
 .rgba{background: #b00100;
      /* opacity: 0.6; filter: Alpha(opacity=60); */
     }
-
+/* swiper */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-button-prev{background-image: url(../img/swiper_btn.png)!important;width: 72px!important;height: 76px!important;background-size: 156px 76px!important;top: 40%!important;left: 18px!important;background-position: 0 0!important;}
+  .swiper-button-next{background-image: url(../img/swiper_btn.png)!important;width: 82px!important;height: 82px!important;background-size: 156px 76px!important;top: 40%!important;right: 7px!important;background-position: -72px 0!important;}  
 /*icon*/
 .icon{display:inline-block; *display:inline; *zoom:1; background:url(../img/icons.png) no-repeat;}
 .icon-video{width:114px; height:114px; background-position:-186px 0}
@@ -58,7 +80,7 @@ body{font-family: "鑻规柟";}
 .area3 .inner::before{content:"";display: table;height:0}
 .area4,.area4 .inner{height:1140px;background:url(../img//area4.jpg) no-repeat top center;background-size: 1920px 1140px;}
 .area8,.area8 .inner{height:280px; background:url(../img/area5.jpg) no-repeat top center;}
- 
+.area8 .inner{width:1200px; margin:0 auto;}  
 .th{width: 1119px;height: 144px;margin: 0 auto;}
 .area1 .th{width: 1169px;height: 197px;margin-bottom: 10px;background:url(../img/area1-top.png) no-repeat center;}
 .area2 .th{/*background:url(//www1.pcauto.com.cn/zt/niandu20180110/awardlist/img//th2.png) no-repeat;*/}

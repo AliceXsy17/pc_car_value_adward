@@ -13,14 +13,15 @@
 		!function (a, b) { var o, c = navigator.userAgent.toLowerCase(), d = location.href.toLowerCase(), e = location.hostname, f = b.referrer.toLowerCase(), g = f.split("/")[2], h = location.search, i = location.hash, j = ".pcauto.com.cn", k = "m.pcauto.com.cn", l = "ipad.pcauto.com.cn", m = {}, n = { SB: c.indexOf("symbian") > -1, NK: c.indexOf("nokia") > -1, BB: c.indexOf("blackberry") > -1, WCE: c.indexOf("windows ce") > -1, WP: c.indexOf("windows phone") > -1, Mobile: c.indexOf("mobile") > -1, Android: c.indexOf("android") > -1, Iphone: c.indexOf("iphone") > -1, Ipod: c.indexOf("ipod") > -1, Ipad: c.indexOf("ipad") > -1, Mipad: c.indexOf("mi-pad") > -1, WX: c.indexOf("micromessenger") > -1 }; m.bIsWeixin = n.weixin ? !0 : !1, m.browserType = n.Ipad || n.Mipad ? "ipad" : n.SB || n.BB || n.WCE || n.WP || n.NK ? "wap" : n.Mobile || n.Android || n.Iphone || n.Ipod ? "wap_3g" : "main", a.PCGPARAM && "object" == typeof a.PCGPARAM || (a.PCGPARAM = m), o = function () { }, o.prototype = { init: function (c, n, o) { function u(a, c, d, e, f) { b.cookie = a + "=" + c + ";expires=" + new Date((new Date).getTime() + d).toGMTString() + ";path=" + e + ";domain=" + f } var r, s, t, v, w, p = m.browserType, q = c[p]; return "function" == typeof n && n(p, c), "jump2" == o && "undefined" != typeof c && "undefined" != typeof c.wap_3g && "main" != m.browserType ? (a.deviceJumpUrl = c, b.addEventListener("DOMContentLoaded", function () { var a = b.createElement("iframe"); a.src = "/global_ssi/pcauto/jump_layer/", a.style.display = "none", a.id = "JiframeDeviceJump", b.body.appendChild(a) }, !1), !1) : "main" == p || h.indexOf("type=checked") > -1 || e.indexOf("cms.pc") > -1 || "undefined" == typeof q || "" == q ? !1 : -1 != d.indexOf(q) && (r = "http://" + k + "/w/", d != r) ? !1 : (s = !1, t = "referrerUrl", "" == f ? (s = !0, u(t, f, -1e3, "/", j)) : ((-1 == g.indexOf(j) || -1 != g.indexOf("mrobot")) && (s = !0, u(t, f, 1e4, "/", j)), g != e && (f + d).split(k).length >= 2 && (s = !0, u(t, f, 1e4, "/", j)), g != e && (f + d).split(l).length >= 2 && (s = !0, u(t, f, 1e4, "/", j))), s ? (h && h.indexOf("fromApp") > -1 && (q += -1 != q.indexOf("?") ? "&fromApp" : "?fromApp"), (i || h) && (v = /[\?|#]ad=([^&|^#]*)/i.exec(h + i), v && (w = v[1], q += -1 != q.indexOf("?") ? "#ad=" + w : -1 != q.indexOf("#") ? "?ad=" + w : "#ad=" + w)), location.href = q, void 0) : !1) } }, a.deviceJump = new o }(window, document);
 
 		deviceJump.init({
-			"main": "",  //pc链接
-			"wap_3g": "https://www1.pcauto.com.cn/zt/2018/wappx/2018px/hjbd.html" //wap链接
+			// "main": "",  //pc链接
+			// "wap_3g": "https://www1.pcauto.com.cn/zt/2018/wappx/2018px/hjbd.html" //wap链接
 		});
 	</script>
 	<!-- 设备跳转模块 E -->
 
 	<meta http-equiv="Cache-Control" content="no-transform" />
 	<link href="css/list_award.css" rel="stylesheet" type="text/css" />
+	<link href="//js.3conline.com/js/ztlib/other/swiper4/swiper-4.2.2.min.css" rel="stylesheet">
 	<!--[if IE 6]><script>document.execCommand("BackgroundImageCache", false, true)</script><![endif]-->
 </head>
 
@@ -1659,92 +1660,76 @@ QQ登录
 			<div class="inner">
 				<div class="th"></div>
 				<div class="tb" style="margin-top: 60px;">
-					<div class="slider clearfix">
-						<div class="slider-con clearfix">
-							<!--第一屏 S-->
-							<div class="slider-item">
-								<div class="item fl">
-									<a href="http://www1.pcauto.com.cn/zt/niandu20180110/index/index.html"
-										target="_blank" class="pic">
-										<img src="//www.pcauto.com.cn/blank.gif"
-											#src="http://img0.pcauto.com.cn/pcauto/1812/20/11633375_270.png" alt=""
-											width="270" height="135" />
-										<span class="tit">2017年太平洋汽车网年度车型评选</span>
-									</a>
-								</div>
-								<div class="item fl">
-									<a href="//www1.pcauto.com.cn/zt/20161215/ndpx/index/index.html" target="_blank"
-										class="pic">
-										<img src="//www.pcauto.com.cn/blank.gif"
-											#src="//www1.pcauto.com.cn/zt/niandu20180110/index/img/2016.jpg" alt=""
-											width="270" height="135" />
-										<span class="tit">2016年太平洋汽车网年度车型评选</span>
-									</a>
-								</div>
-								<div class="item fl">
-									<a href="//www1.pcauto.com.cn/zt/20160121/pcmd/pcmd/index.html" target="_blank"
-										class="pic">
-										<img src="//www.pcauto.com.cn/blank.gif"
-											#src="//www1.pcauto.com.cn/zt/niandu20180110/index/img/2015.jpg" alt=""
-											width="270" height="135" />
-										<span class="tit">2015年太平洋汽车网年度车型评选</span>
-									</a>
-								</div>
-								<div class="item fl">
-									<a href="//www1.pcauto.com.cn/zt/20150122/ndpx/index.html" target="_blank"
-										class="pic">
-										<img src="//www.pcauto.com.cn/blank.gif"
-											#src="//www1.pcauto.com.cn/zt/niandu20180110/index/img/2014.jpg" alt=""
-											width="270" height="135" />
-										<span class="tit">2014年太平洋汽车网年度车型评选</span>
-									</a>
-								</div>
-							</div>
-							<!--第一屏 E-->
-
-							<!--第二屏 S-->
-							<div class="slider-item">
-								<div class="item fl">
-									<a href="http://www1.pcauto.com.cn/zt/niandu20180110/index/index.html"
-										target="_blank" class="pic">
-										<img src="//www.pcauto.com.cn/blank.gif"
-											#src="http://img0.pcauto.com.cn/pcauto/1812/20/11633375_270.png" alt=""
-											width="270" height="135" />
-										<span class="tit">2017年太平洋汽车网年度车型评选</span>
-									</a>
-								</div>
-								<div class="item fl">
-									<a href="//www1.pcauto.com.cn/zt/20161215/ndpx/index/index.html" target="_blank"
-										class="pic">
-										<img src="//www.pcauto.com.cn/blank.gif"
-											#src="//www1.pcauto.com.cn/zt/niandu20180110/index/img/2016.jpg" alt=""
-											width="270" height="135" />
-										<span class="tit">2016年太平洋汽车网年度车型评选</span>
-									</a>
-								</div>
-								<div class="item fl">
-									<a href="//www1.pcauto.com.cn/zt/20160121/pcmd/pcmd/index.html" target="_blank"
-										class="pic">
-										<img src="//www.pcauto.com.cn/blank.gif"
-											#src="//www1.pcauto.com.cn/zt/niandu20180110/index/img/2015.jpg" alt=""
-											width="270" height="135" />
-										<span class="tit">2015年太平洋汽车网年度车型评选</span>
-									</a>
-								</div>
-								<div class="item fl">
-									<a href="//www1.pcauto.com.cn/zt/20150122/ndpx/index.html" target="_blank"
-										class="pic">
-										<img src="//www.pcauto.com.cn/blank.gif"
-											#src="//www1.pcauto.com.cn/zt/niandu20180110/index/img/2014.jpg" alt=""
-											width="270" height="135" />
-										<span class="tit">2014年太平洋汽车网年度车型评选</span>
-									</a>
-								</div>
-							</div>
-							<!--第二屏 E-->
-
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+						  <div class="swiper-slide">
+							  <div class="item fl">
+								<a href="http://www1.pcauto.com.cn/zt/niandu20180110/index/index.html" target="_blank" class="pic">
+								  <img src="http://img0.pcauto.com.cn/pcauto/1812/20/11633375_270.png" alt="" width="270"
+									height="135" />
+								  <span class="tit">2017年太平洋汽车网年度车型评选</span>
+								</a>
+							  </div>
+							  <div class="item fl">
+								<a href="//www1.pcauto.com.cn/zt/20161215/ndpx/index/index.html" target="_blank" class="pic">
+								  <img src="//www1.pcauto.com.cn/zt/niandu20180110/index/img/2016.jpg" alt="" width="270"
+									height="135" />
+								  <span class="tit">2016年太平洋汽车网年度车型评选</span>
+								</a>
+							  </div>
+							  <div class="item fl">
+								<a href="//www1.pcauto.com.cn/zt/20160121/pcmd/pcmd/index.html" target="_blank" class="pic">
+								  <img src="//www1.pcauto.com.cn/zt/niandu20180110/index/img/2015.jpg" alt="" width="270"
+									height="135" />
+								  <span class="tit">2015年太平洋汽车网年度车型评选</span>
+								</a>
+							  </div>
+							  <div class="item fl">
+								<a href="//www1.pcauto.com.cn/zt/20150122/ndpx/index.html" target="_blank" class="pic">
+								  <img src="//www1.pcauto.com.cn/zt/niandu20180110/index/img/2014.jpg" alt="" width="270"
+									height="135" />
+								  <span class="tit">2014年太平洋汽车网年度车型评选</span>
+								</a>
+							  </div>
+											<!-- 如果需要导航按钮 -->
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						  </div>
+						  <div class="swiper-slide">
+							  <div class="item fl">
+								<a href="http://www1.pcauto.com.cn/zt/niandu20180110/index/index.html" target="_blank" class="pic">
+								  <img src="http://img0.pcauto.com.cn/pcauto/1812/20/11633375_270.png" alt="" width="270"
+									height="135" />
+								  <span class="tit">2017年太平洋汽车网年度车型评选</span>
+								</a>
+							  </div>
+							  <div class="item fl">
+								<a href="//www1.pcauto.com.cn/zt/20161215/ndpx/index/index.html" target="_blank" class="pic">
+								  <img src="//www1.pcauto.com.cn/zt/niandu20180110/index/img/2016.jpg" alt="" width="270"
+									height="135" />
+								  <span class="tit">2016年太平洋汽车网年度车型评选</span>
+								</a>
+							  </div>
+							  <div class="item fl">
+								<a href="//www1.pcauto.com.cn/zt/20160121/pcmd/pcmd/index.html" target="_blank" class="pic">
+								  <img src="//www1.pcauto.com.cn/zt/niandu20180110/index/img/2015.jpg" alt="" width="270"
+									height="135" />
+								  <span class="tit">2015年太平洋汽车网年度车型评选</span>
+								</a>
+							  </div>
+							  <div class="item fl">
+								<a href="//www1.pcauto.com.cn/zt/20150122/ndpx/index.html" target="_blank" class="pic">
+								  <img src="//www1.pcauto.com.cn/zt/niandu20180110/index/img/2014.jpg" alt="" width="270"
+									height="135" />
+								  <span class="tit">2014年太平洋汽车网年度车型评选</span>
+								</a>
+							  </div>
+											<!-- 如果需要导航按钮 -->
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						  </div>
 						</div>
-					</div>
+					  </div>
 				</div>
 			</div>
 		</div>
@@ -2202,8 +2187,18 @@ QQ登录
 		})();</script>
 	<!-- 20190729 年中购车补贴入口 E -->
 	<!--公共底部 E-->
+	<script src="//js.3conline.com/js/ztlib/other/swiper4/swiper-4.2.2.min.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+      loop: true, // 循环模式选项
+      // 如果需要前进后退按钮
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
 
-
+    })      
+  </script>
 </body>
 
 </html>
